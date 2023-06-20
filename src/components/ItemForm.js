@@ -14,8 +14,9 @@ function handleFormSubmit(event){
     name: itemName,
     category: itemCategory
   }
-  
   onItemFormSubmit(newItem)
+  setNewItem("")
+  setCategory("Produce")
 }
 
 function handleNewItem(e){
